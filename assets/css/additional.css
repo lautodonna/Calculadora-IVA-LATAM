@@ -1,0 +1,254 @@
+body {
+  font-family: Lexend;
+}
+.display-1 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 4.4rem;
+  line-height: 1.1;
+}
+.display-1 > .mbr-iconfont {
+  font-size: 5.5rem;
+}
+.display-2 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.1;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 3.5rem;
+}
+.display-4 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 1.25rem;
+}
+.display-5 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.display-5 > .mbr-iconfont {
+  font-size: 2.25rem;
+}
+.display-7 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.display-7 > .mbr-iconfont {
+  font-size: 1.625rem;
+}
+/* ---- Fluid typography for mobile devices ---- */
+/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
+/* 100vw - current viewport width */
+/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
+/* 0.65 - min scale variable, may vary */
+@media (max-width: 992px) {
+  .display-1 {
+    font-size: 3.52rem;
+  }
+}
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 3.08rem;
+    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-2 {
+    font-size: 2.24rem;
+    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-4 {
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-5 {
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-7 {
+    font-size: 1.04rem;
+    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));
+  }
+}
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-sm {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-md {
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+.btn-lg {
+  padding: 1rem 2.6rem;
+  border-radius: 4px;
+}
+.bg-primary {
+  background-color: #56667b !important;
+}
+.bg-success {
+  background-color: #4a6586 !important;
+}
+.bg-info {
+  background-color: #47b5ed !important;
+}
+.bg-warning {
+  background-color: #ffe161 !important;
+}
+.bg-danger {
+  background-color: #ff9966 !important;
+}
+.btn-primary {
+  background-color: #56667b !important;
+  background: linear-gradient(90deg, #56667b 0%, #919ace 100%);
+  border: none;
+  transition: all 0.3s;
+}
+/* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
+.form-control {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form-control > .mbr-iconfont {
+  font-size: 1.25rem;
+}
+.form-control:hover,
+.form-control:focus {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  border-color: #56667b !important;
+}
+.form-control:-webkit-input-placeholder {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.form-control:-webkit-input-placeholder > .mbr-iconfont {
+  font-size: 1.25rem;
+}
+blockquote {
+  border-color: #56667b;
+}
+.cid-sz57ONqHWB {
+  padding-top: 90px;
+  padding-bottom: 240px;
+  background-image: url("../../../assets/images/background2.jpg");
+}
+.cid-sz57ONqHWB .header-text {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.cid-sz57ONqHWB .row {
+  max-width: 900px;
+  margin: auto;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+  backdrop-filter: blur(3.5px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 4rem 3rem;
+  overflow: visible;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .cid-sz57ONqHWB .row {
+    padding: 2rem 1rem;
+  }
+}
+.cid-sz57ONqHWB .row:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 30px;
+  pointer-events: none;
+}
+.cid-sz57ONqHWB .card-header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 0px!important;
+}
+.cid-sz57ONqHWB span {
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+.cid-sz57ONqHWB .collapsed span {
+  transform: rotate(0deg);
+}
+.cid-sz57ONqHWB .accordion-content {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+}
+.cid-sz57ONqHWB .panel-group {
+  width: 100%;
+}
+.cid-sz57ONqHWB .sign {
+  color: currentColor;
+  font-family: 'Moririse2' !important;
+}
+.cid-sz57ONqHWB .card {
+  border-radius: 0px;
+}
+.cid-sz57ONqHWB .card .card-header {
+  border-radius: 0px;
+  padding: 0;
+  background-color: transparent;
+}
+.cid-sz57ONqHWB .card .card-header a.panel-title {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  transition: all .3s;
+  margin-bottom: 0;
+  font-style: normal;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  text-decoration: none !important;
+  line-height: normal;
+}
+.cid-sz57ONqHWB .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-sz57ONqHWB .card .card-header a.panel-title h4 {
+  padding: 1.5rem 1rem 13px 0px;
+  margin-bottom: 0;
+}
+.cid-sz57ONqHWB .panel-text {
+  color: #263d5a;
+}
+.cid-sz57ONqHWB .header-text,
+.cid-sz57ONqHWB .sign {
+  color: #263d5a;
+  text-align: right;
+}
+.cid-sz57ONqHWB .mbr-section-title {
+  color: #263d5a;
+}
+.cid-sz57ONqHWB .header-text,
+.cid-sz57ONqHWB .sign,
+.cid-sz57ONqHWB .card-header {
+  color: #263d5a;
+}
+.cid-sz57ONqHWB .mbr-section-subtitle {
+  color: #263d5a;
+}

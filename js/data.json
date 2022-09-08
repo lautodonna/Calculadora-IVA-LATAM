@@ -1,0 +1,10 @@
+[
+    { "nombre": "Argentina -", "iva": "IVA: (75%)", "id": 1 },
+    { "nombre": "Colombia -", "iva": "IVA: (19%)", "id": 2 },
+    { "nombre": "Mexico -", "iva": "IVA: (16%)", "id": 3 },
+    { "nombre": "Peru -", "iva": "IVA: (38%)", "id": 4 },
+    { "nombre": "Uruguay -", "iva": "IVA: (22%)", "id": 5 },
+    { "nombre": "Paraguay -", "iva": "IVA: (13%)", "id": 6 },
+    { "nombre": "Venezuela -", "iva": "IVA: (20%)", "id": 7 },
+    { "nombre": "Bolivia -", "iva": "IVA: (23%)", "id": 8 }
+  ]

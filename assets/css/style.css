@@ -1,0 +1,58 @@
+*{
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    background-position: center;
+}
+
+.total {
+    border-color: blueviolet;
+    margin-top: 20px;
+}
+
+.titulo-1 {
+    text-align: center;
+    margin-top: 25px;
+    color: #eb8131;
+}
+
+.titulo-2 {
+    text-align: center;
+    margin-top: 80px;
+    color: #eb8131;
+}
+
+.form {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+/* .container {
+    color: #000000;
+}
+
+.container-2 {
+    color: #56667b;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-style: normal;
+}
+
+.historial {
+    margin: 20%;
+} */
+
+/* .collapse {
+    margin-right: 5%;
+}
+
+.botonImp {
+    margin-right: 5%;
+} */
